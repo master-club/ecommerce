@@ -1,0 +1,31 @@
+.topbar {
+  z-index: 1000;
+  position: relative;
+
+  .wrapper {
+    height: 3.5rem;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+
+    .stores {
+      & > button {
+        margin-left: 0.5rem;
+      }
+    }
+
+    .search {
+      display: flex;
+      flex: 1 1 auto;
+    }
+
+    .user {
+      & > button {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
